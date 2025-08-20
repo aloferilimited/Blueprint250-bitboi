@@ -126,7 +126,7 @@ class HomeAdapter(
             arrayOf(
                 IconsCounter(iconsCount),
                 WallpapersCounter(wallpapersCount),
-                KustomCounter(kustomCount),
+               // KustomCounter(kustomCount),
             ).filter { it.count > 0 }
         } else listOf()
 

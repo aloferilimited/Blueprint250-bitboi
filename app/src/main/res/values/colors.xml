@@ -1,60 +1,46 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Light Theme Colors -->
-    <color name="primary">#ffffff</color>
-    <color name="primaryDark">#fafafa</color>
-    <color name="onPrimary">#de000000</color>
+    <!--  Light Theme Colors  -->
+    <color name="primary">#ffffff</color> <!-- Main brand/background color for light theme -->
+    <color name="primaryDark">#fafafa</color> <!-- Slightly darker primary shade for status bar or highlights -->
+    <color name="onPrimary">#de000000</color> <!-- Text/icon color shown on top of primary -->
+    <color name="accent">#3881fa</color> <!-- Accent color for buttons, highlights, etc. -->
+    <color name="onAccent">#ffffff</color> <!-- Text/icon color on top of accent -->
+    <color name="surface">#000000</color> <!-- Surface background for cards, sheets, dialogs -->
+    <color name="onSurface">#de000000</color> <!-- Text/icon color on top of surface -->
+    <color name="onSurfaceVariant">#8a000000</color> <!-- Secondary/disabled text/icon color on surface -->
+    <color name="background">#fafafa</color> <!-- App background color -->
+    <color name="onBackground">#de000000</color> <!-- Text/icon color on background -->
+    <color name="snackbarBackgroundColor">#424242</color> <!-- Snackbar container background -->
+    <color name="snackbarTextColor">#ffffff</color> <!-- Snackbar message text color -->
+    <color name="snackbarButtonColor">#88b3fc</color> <!-- Snackbar action button color -->
 
-    <color name="accent">#3881fa</color>
-    <color name="onAccent">#ffffff</color>
+    <!--  Dark Theme Colors  -->
+    <color name="darkThemePrimary">#212121</color> <!-- Main brand/background color for dark theme -->
+    <color name="darkThemePrimaryDark">#000000</color> <!-- Darker primary shade for status bar or highlights -->
+    <color name="darkThemeOnPrimary">#ffffff</color> <!-- Text/icon color on primary -->
+    <color name="darkThemeAccent">#ff3f80</color> <!-- Accent color for buttons, highlights, etc. -->
+    <color name="darkThemeOnAccent">#ffffff</color> <!-- Text/icon color on accent -->
+    <color name="darkThemeSurface">#000000</color> <!-- Surface background for cards, sheets, dialogs -->
+    <color name="darkThemeOnSurface">#ffffff</color> <!-- Text/icon color on surface -->
+    <color name="darkThemeOnSurfaceVariant">#b3ffffff</color> <!-- Secondary/disabled text/icon color on surface -->
+    <color name="darkThemeBackground">#303030</color> <!-- App background color -->
+    <color name="darkThemeOnBackground">#b3ffffff</color> <!-- Text/icon color on background -->
+    <color name="darkThemeSnackbarBackgroundColor">#ffffff</color> <!-- Snackbar background -->
+    <color name="darkThemeSnackbarTextColor">#de000000</color> <!-- Snackbar message text -->
+    <color name="darkThemeSnackbarButtonColor">#cc3266</color> <!-- Snackbar action button -->
 
-    <color name="surface">#ffffff</color>
-    <color name="onSurface">#de000000</color>
-    <color name="onSurfaceVariant">#8a000000</color>
-
-    <color name="background">#fafafa</color>
-    <color name="onBackground">#de000000</color>
-
-    <color name="snackbarBackgroundColor">#424242</color>
-    <color name="snackbarTextColor">#ffffff</color>
-    <color name="snackbarButtonColor">#88b3fc</color>
-
-    <!-- Dark Theme Colors -->
-    <color name="darkThemePrimary">#212121</color>
-    <color name="darkThemePrimaryDark">#000000</color>
-    <color name="darkThemeOnPrimary">#ffffff</color>
-
-    <color name="darkThemeAccent">#ff3f80</color>
-    <color name="darkThemeOnAccent">#ffffff</color>
-
-    <color name="darkThemeSurface">#424242</color>
-    <color name="darkThemeOnSurface">#ffffff</color>
-    <color name="darkThemeOnSurfaceVariant">#b3ffffff</color>
-
-    <color name="darkThemeBackground">#303030</color>
-    <color name="darkThemeOnBackground">#b3ffffff</color>
-
-    <color name="darkThemeSnackbarBackgroundColor">#ffffff</color>
-    <color name="darkThemeSnackbarTextColor">#de000000</color>
-    <color name="darkThemeSnackbarButtonColor">#cc3266</color>
-
-    <!-- Amoled Theme Colors -->
-    <color name="amoledThemePrimary">#000000</color>
-    <color name="amoledThemePrimaryDark">#000000</color>
-    <color name="amoledThemeOnPrimary">#ffffff</color>
-
-    <color name="amoledThemeAccent">#64ffda</color>
-    <color name="amoledThemeOnAccent">#de000000</color>
-
-    <color name="amoledThemeSurface">#212121</color>
-    <color name="amoledThemeOnSurface">#ffffff</color>
-    <color name="amoledThemeBackground">#101010</color>
-
-    <color name="amoledThemeOnSurfaceVariant">@color/darkThemeOnSurfaceVariant</color>
-    <color name="amoledThemeOnBackground">@color/darkThemeOnBackground</color>
-
-    <color name="amoledThemeSnackbarBackgroundColor">#ffffff</color>
-    <color name="amoledThemeSnackbarTextColor">#de000000</color>
-    <color name="amoledThemeSnackbarButtonColor">#3c9983</color>
-
+    <!--  Amoled Theme Colors  -->
+    <color name="amoledThemePrimary">#000000</color> <!-- Main brand/background color for AMOLED theme -->
+    <color name="amoledThemePrimaryDark">#000000</color> <!-- Darker primary shade (pure black) -->
+    <color name="amoledThemeOnPrimary">#ffffff</color> <!-- Text/icon color on primary -->
+    <color name="amoledThemeAccent">#64ffda</color> <!-- Accent color for buttons, highlights, etc. -->
+    <color name="amoledThemeOnAccent">#de000000</color> <!-- Text/icon color on accent -->
+    <color name="amoledThemeSurface">#000000</color> <!-- Surface background for cards, sheets, dialogs -->
+    <color name="amoledThemeOnSurface">#ffffff</color> <!-- Text/icon color on surface -->
+    <color name="amoledThemeBackground">#101010</color> <!-- App background color -->
+    <color name="amoledThemeOnSurfaceVariant">@color/darkThemeOnSurfaceVariant</color> <!-- Secondary/disabled text/icon color (reuses dark theme value) -->
+    <color name="amoledThemeOnBackground">@color/darkThemeOnBackground</color> <!-- Text/icon color on background (reuses dark theme value) -->
+    <color name="amoledThemeSnackbarBackgroundColor">#ffffff</color> <!-- Snackbar background -->
+    <color name="amoledThemeSnackbarTextColor">#de000000</color> <!-- Snackbar message text -->
+    <color name="amoledThemeSnackbarButtonColor">#3c9983</color> <!-- Snackbar action button -->
 </resources>

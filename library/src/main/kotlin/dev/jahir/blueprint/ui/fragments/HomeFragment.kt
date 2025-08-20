@@ -8,6 +8,7 @@ import android.graphics.drawable.Drawable
 import android.os.Bundle
 import android.view.View
 import androidx.annotation.IdRes
+import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.GridLayoutManager
 import com.fondesa.kpermissions.PermissionStatus
@@ -49,7 +50,16 @@ import dev.jahir.kuper.extensions.userWallpaper
 class HomeFragment : Fragment(R.layout.fragment_home), HomeItemsListener {
 
     private val wallpaper: Drawable?
-        get() = activity?.userWallpaper
+        @SuppressLint("UseCompatLoadingForDrawables")
+        get() = getRandomBackdrop(context)
+
+    private fun getRandomBackdrop(context: Context?): Drawable? {
+        val drawables = listOf(R.drawable.backdrop_1
+        )
+        val randomResId = drawables.random()
+        return context?.let { ContextCompat.getDrawable(it, randomResId) }
+    }
+//        get() = activity?.userWallpaper
 
     private val staticWallpaper: Drawable?
         get() = activity?.let {

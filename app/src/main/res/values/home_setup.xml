@@ -38,23 +38,23 @@
 
     <!-- These arrays are for the list of apps or links in main section. -->
     <string-array name="home_list_titles">
-        <item>IconShowcase</item>
-        <item>An App</item>
-        <item>An App</item>
+        <item>Help section</item>
+        <item>More from me</item>
+        <item>An App 2</item>
     </string-array>
     <string-array name="home_list_descriptions">
-        <item>It is the old version of this awesome dashboard</item>
-        <item>This is an app</item>
+        <item>Documentation &amp; FAQs</item>
+        <item>Portfolio &amp; other stuff</item>
         <item>This is market url</item>
     </string-array>
     <string-array name="home_list_icons">
-        <item>ic_na_launcher</item>
-        <item>ic_na_launcher</item>
+        <item>link_1_icon</item>
+        <item>link_2_icon</item>
         <item>ic_na_launcher</item>
     </string-array>
     <string-array name="home_list_links">
-        <item>https://github.com/jahirfiquitiva/Blueprint</item>
-        <item>https://play.google.com/store/apps/details?id=com.android.settings</item>
-        <item>market://details?id=com.example.package</item>
+        <item>https://www.notion.so/doublegum/BitBoi-Documentation-2485da10c9ef8009ba0feeefbc0c68b0</item>
+        <item>https://linktr.ee/doublegum</item>
+        <item>https://www.notion.so/doublegum/BitBoi-Documentation-2485da10c9ef8009ba0feeefbc0c68b0</item>
     </string-array>
 </resources>

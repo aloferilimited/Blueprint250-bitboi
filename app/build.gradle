@@ -34,8 +34,8 @@ android {
         minSdkVersion Versions.minSdk
         compileSdk Versions.targetSdk
         targetSdkVersion Versions.targetSdk
-        versionCode Blueprint.version
-        versionName Blueprint.versionName
+        versionCode 1
+        versionName "1.0.0"
         setProperty("archivesBaseName", applicationId + "-" + versionName)
         vectorDrawables.useSupportLibrary = true
         proguardFiles 'proguard-android-optimize.txt', 'proguard-rules.pro'

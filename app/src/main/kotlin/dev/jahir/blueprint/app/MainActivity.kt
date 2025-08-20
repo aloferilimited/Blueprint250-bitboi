@@ -1,7 +1,9 @@
 package dev.jahir.blueprint.app
 
+import com.doublegum.bitboi.R
 import com.github.javiersantos.piracychecker.PiracyChecker
 import dev.jahir.blueprint.ui.activities.BottomNavigationBlueprintActivity
+import dev.jahir.frames.BuildConfig
 
 class MainActivity : BottomNavigationBlueprintActivity() {
 

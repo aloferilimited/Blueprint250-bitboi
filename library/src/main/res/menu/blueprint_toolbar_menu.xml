@@ -17,19 +17,19 @@
         android:title="@string/icon_shape"
         app:showAsAction="ifRoom" />
 
-    <item
-        android:id="@+id/select_all"
-        android:icon="@drawable/ic_select_all"
-        android:orderInCategory="300"
-        android:title="@string/select_all"
-        app:showAsAction="ifRoom" />
+<!--    <item-->
+<!--        android:id="@+id/select_all"-->
+<!--        android:icon="@drawable/ic_select_all"-->
+<!--        android:orderInCategory="300"-->
+<!--        android:title="@string/select_all"-->
+<!--        app:showAsAction="ifRoom" />-->
 
-    <item
-        android:id="@+id/templates"
-        android:icon="@drawable/ic_widgets"
-        android:orderInCategory="400"
-        android:title="@string/templates"
-        app:showAsAction="ifRoom" />
+<!--    <item-->
+<!--        android:id="@+id/templates"-->
+<!--        android:icon="@drawable/ic_widgets"-->
+<!--        android:orderInCategory="400"-->
+<!--        android:title="@string/templates"-->
+<!--        app:showAsAction="ifRoom" />-->
 
     <item
         android:id="@+id/changelog"
