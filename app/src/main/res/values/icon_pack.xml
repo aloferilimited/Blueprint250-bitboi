@@ -2,6 +2,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="ExtraTranslation">
 
     <!--  Make sure to put at least 8 icons  -->
+
     <string-array name="icons_preview">
         <item>adobe_connect</item>
         <item>airtel_tv</item>
@@ -51,6 +52,7 @@
         <item>cred</item>
         <item>crunchyroll</item>
         <item>daily_bean</item>
+        <item>dead_cells</item>
         <item>deepstash</item>
         <item>deliveroo</item>
         <item>disciplined</item>
@@ -68,6 +70,7 @@
         <item>ebay</item>
         <item>edits</item>
         <item>eight_8_ball_pool</item>
+        <item>enter_the_gungeon</item>
         <item>evernote</item>
         <item>facebook</item>
         <item>facebook_lite</item>
@@ -310,9 +313,11 @@
         <item>all</item>
         <item>apple_ios</item>
         <item>art_and_design</item>
+        <item>artificial_intelligence</item>
         <item>auto_and_vehicles</item>
         <item>beauty</item>
         <item>books_and_reference</item>
+        <item>browsers</item>
         <item>business</item>
         <item>communication</item>
         <item>dating</item>
@@ -324,25 +329,22 @@
         <item>google</item>
         <item>health_and_fitness</item>
         <item>home_and_lifestyle</item>
+        <item>launchers</item>
         <item>microsoft</item>
         <item>miscellaneous</item>
         <item>music_and_audio</item>
         <item>news_and_magazines</item>
         <item>productivity</item>
-        <item>artificial_intelligence</item>
         <item>security</item>
         <item>shopping</item>
         <item>social</item>
         <item>tools</item>
-        <item>browsers</item>
         <item>travel_maps_and_navigation</item>
         <item>video_players_and_editors</item>
-        <item>dead_cells</item>
-        <item>enter_the_gungeon</item>
     </string-array>
 
-    <!--   612 icons in total  -->
-    -->
+<!--       612 icons in total  -->
+
     <string-array name="all">
         <item>amazon_seller</item>
         <item>novel_bar</item>
@@ -949,6 +951,46 @@
     </string-array>
 
 
+    <string-array name="apple_ios">
+        <item>apple_calculator</item>
+        <item>apple_calendar</item>
+        <item>apple_photos</item>
+        <item>apple_music_alt</item>
+        <item>apple_translate</item>
+        <item>app_store</item>
+        <item>apple_books</item>
+        <item>apple_camera</item>
+        <item>apple_clock</item>
+        <item>apple_contacts</item>
+        <item>apple_family_sharing</item>
+        <item>apple_files</item>
+        <item>apple_find_my</item>
+        <item>apple_fitness</item>
+        <item>apple_health</item>
+        <item>apple_home</item>
+        <item>apple_mail</item>
+        <item>apple_maps</item>
+        <item>apple_measure</item>
+        <item>apple_music</item>
+        <item>apple_news</item>
+        <item>apple_notes</item>
+        <item>apple_phone</item>
+        <item>apple_podcasts</item>
+        <item>apple_reminders</item>
+        <item>apple_settings</item>
+        <item>apple_tips</item>
+        <item>apple_tv</item>
+        <item>apple_voice_memos</item>
+        <item>apple_wallet</item>
+        <item>apple_watch</item>
+        <item>apple_weather</item>
+        <item>facetime</item>
+        <item>imessage</item>
+        <item>safari</item>
+        <item>shortcuts</item>
+    </string-array>
+
+
     <string-array name="art_and_design">
         <item>blender</item>
         <item>microsoft_designer</item>
@@ -991,9 +1033,9 @@
 
 
     <string-array name="artificial_intelligence">
-        <item>chat_gpt</item>
+        <item>gemini</item>
         <item>grok</item>
-        <item>perplexity</item>
+        <item>chat_gpt</item>
         <item>poe</item>
         <item>ai_video</item>
         <item>ask_ai</item>
@@ -1003,12 +1045,12 @@
         <item>cleo_ai</item>
         <item>deepseek</item>
         <item>face_app</item>
-        <item>gemini</item>
         <item>google_notebook_lm</item>
         <item>lensa</item>
         <item>meta_ai</item>
         <item>obsidian</item>
         <item>otter_ai</item>
+        <item>perplexity</item>
         <item>seeing_ai</item>
         <item>starry_ai</item>
         <item>wombo_dream</item>
@@ -1019,16 +1061,16 @@
         <item>bmw</item>
         <item>bugatti</item>
         <item>skoda</item>
-        <item>ford</item>
+        <item>jeep</item>
         <item>android_auto</item>
         <item>audi</item>
         <item>auto_trader</item>
         <item>chevrolet</item>
         <item>citroen</item>
         <item>ferrari</item>
+        <item>ford</item>
         <item>honda</item>
         <item>jaguar</item>
-        <item>jeep</item>
         <item>kia</item>
         <item>lexus</item>
         <item>mahindra</item>
@@ -1053,17 +1095,17 @@
 
 
     <string-array name="beauty">
-        <item>feelin_my_skin</item>
         <item>scent_bird</item>
-        <item>sephora</item>
+        <item>feelin_my_skin</item>
+        <item>elf</item>
         <item>yes_style</item>
         <item>booksy</item>
-        <item>elf</item>
         <item>fresha</item>
         <item>mirror</item>
         <item>nykaa_man</item>
         <item>nykaa</item>
         <item>sally</item>
+        <item>sephora</item>
         <item>skincare_routine</item>
         <item>soda</item>
         <item>ulta</item>
@@ -1071,20 +1113,20 @@
 
 
     <string-array name="books_and_reference">
-        <item>audible</item>
-        <item>good_novel</item>
         <item>kindle</item>
+        <item>merlin_bird_id</item>
+        <item>audible</item>
         <item>wikipedia</item>
         <item>ancestry</item>
         <item>estory</item>
         <item>good_reads</item>
+        <item>good_novel</item>
         <item>google_scholar</item>
         <item>hallow</item>
         <item>holy_bible</item>
         <item>hoopla</item>
         <item>libby</item>
         <item>literie</item>
-        <item>merlin_bird_id</item>
         <item>my_fiction</item>
         <item>novel_bar</item>
         <item>novel_flow</item>
@@ -1109,9 +1151,9 @@
 
     <string-array name="business">
         <item>gumroad</item>
-        <item>my_business</item>
-        <item>shopify</item>
         <item>slack</item>
+        <item>shopify</item>
+        <item>my_business</item>
         <item>amazon_seller</item>
         <item>door_dash</item>
         <item>fiverr</item>
@@ -1137,7 +1179,7 @@
     <string-array name="communication">
         <item>adobe_connect</item>
         <item>google_phone</item>
-        <item>messages</item>
+        <item>microsoft_sms_organizer</item>
         <item>whatsapp</item>
         <item>airtel_thanks</item>
         <item>gmail</item>
@@ -1148,7 +1190,7 @@
         <item>google_voice</item>
         <item>hangouts</item>
         <item>imo</item>
-        <item>microsoft_sms_organizer</item>
+        <item>messages</item>
         <item>my_jio</item>
         <item>phone</item>
         <item>pixel_watch</item>
@@ -1165,9 +1207,9 @@
 
 
     <string-array name="dating">
+        <item>tea_dating_advice</item>
         <item>bumble</item>
         <item>pure</item>
-        <item>tea_dating_advice</item>
         <item>tinder</item>
         <item>blk</item>
         <item>boo</item>
@@ -1185,9 +1227,9 @@
 
     <string-array name="education">
         <item>class_dojo</item>
+        <item>lingvano</item>
         <item>duolingo</item>
         <item>khan_academy</item>
-        <item>lingvano</item>
         <item>brainly</item>
         <item>brilliant</item>
         <item>busuu</item>
@@ -1209,15 +1251,15 @@
 
 
     <string-array name="entertainment">
-        <item>disney</item>
         <item>hbo_max</item>
-        <item>hulu</item>
-        <item>netflix</item>
-        <item>nine_9_gag</item>
         <item>airtel_tv</item>
+        <item>netflix</item>
+        <item>hulu</item>
+        <item>nine_9_gag</item>
         <item>apple_tv</item>
         <item>book_my_show</item>
         <item>crunchyroll</item>
+        <item>disney</item>
         <item>drama_box</item>
         <item>espn</item>
         <item>google_tv</item>
@@ -1236,10 +1278,10 @@
 
 
     <string-array name="finance">
-        <item>cred</item>
         <item>groww</item>
-        <item>paypal</item>
+        <item>cred</item>
         <item>phone_pe</item>
+        <item>paypal</item>
         <item>binance</item>
         <item>cash_app</item>
         <item>chime</item>
@@ -1255,8 +1297,8 @@
     <string-array name="food_and_drink">
         <item>dominos</item>
         <item>seven_7_eleven</item>
-        <item>taco_bell</item>
         <item>starbucks</item>
+        <item>taco_bell</item>
         <item>burger_king</item>
         <item>deliveroo</item>
         <item>door_dash_dasher</item>
@@ -1275,7 +1317,7 @@
     <string-array name="gaming">
         <item>dead_cells</item>
         <item>enter_the_gungeon</item>
-        <item>limbo</item>
+        <item>steam</item>
         <item>monument_valley</item>
         <item>among_us</item>
         <item>candy_crush</item>
@@ -1285,6 +1327,7 @@
         <item>eight_8_ball_pool</item>
         <item>exit_the_gungeon</item>
         <item>lemuroid</item>
+        <item>limbo</item>
         <item>ludo</item>
         <item>minecraft</item>
         <item>one_emulator</item>
@@ -1303,16 +1346,15 @@
         <item>solitaire</item>
         <item>super_meat_boy</item>
         <item>stadia</item>
-        <item>steam</item>
         <item>tetris</item>
         <item>xbox</item>
     </string-array>
 
 
     <string-array name="google">
+        <item>google_maps</item>
         <item>chrome</item>
-        <item>google_translate</item>
-        <item>snapseed</item>
+        <item>pixel_watch</item>
         <item>google_photos</item>
         <item>android_accessibility_suite</item>
         <item>android_auto</item>
@@ -1353,7 +1395,6 @@
         <item>google_lens</item>
         <item>google_maps_alt</item>
         <item>google_maps_go</item>
-        <item>google_maps</item>
         <item>google_meet</item>
         <item>google_messages</item>
         <item>google_news</item>
@@ -1367,6 +1408,7 @@
         <item>google_slides_alt_powerpoint</item>
         <item>google_slides</item>
         <item>google_tasks</item>
+        <item>google_translate</item>
         <item>google_tv</item>
         <item>google_wallet</item>
         <item>google</item>
@@ -1376,7 +1418,6 @@
         <item>opinion_rewards</item>
         <item>personal_safety</item>
         <item>pixel_buds</item>
-        <item>pixel_watch</item>
         <item>play_books</item>
         <item>play_console</item>
         <item>play_games</item>
@@ -1385,6 +1426,7 @@
         <item>play_newsstand</item>
         <item>play_store_business</item>
         <item>remote_desktop</item>
+        <item>snapseed</item>
         <item>stadia</item>
         <item>waze</item>
         <item>wear_os</item>
@@ -1396,9 +1438,9 @@
 
 
     <string-array name="health_and_fitness">
-        <item>better_sleep</item>
-        <item>drink_water_reminder</item>
         <item>foodvisor</item>
+        <item>drink_water_reminder</item>
+        <item>better_sleep</item>
         <item>lifesum</item>
         <item>better_me</item>
         <item>calm</item>
@@ -1418,8 +1460,8 @@
 
     <string-array name="home_and_lifestyle">
         <item>amazon_alexa</item>
-        <item>lg_thinq</item>
         <item>realme_link</item>
+        <item>lg_thinq</item>
         <item>philips_hue</item>
         <item>eco_flow</item>
         <item>google_home</item>
@@ -1436,23 +1478,23 @@
 
     <string-array name="launchers">
         <item>action_launcher</item>
-        <item>aio_launcher</item>
-        <item>go_launcher</item>
+        <item>total_launcher</item>
         <item>lawnchair_launcher</item>
+        <item>go_launcher</item>
+        <item>aio_launcher</item>
         <item>lucid_launcher</item>
         <item>niagara_launcher</item>
         <item>nova_launcher</item>
         <item>smart_launcher</item>
         <item>square_home_launcher</item>
-        <item>total_launcher</item>
     </string-array>
 
 
     <string-array name="microsoft">
         <item>microsoft_365_admin</item>
+        <item>microsoft_teams</item>
         <item>microsoft_one_note</item>
-        <item>msn</item>
-        <item>microsoft_outlook</item>
+        <item>microsoft_powerpoint</item>
         <item>bing</item>
         <item>intune_company_portal</item>
         <item>link_to_windows</item>
@@ -1470,17 +1512,17 @@
         <item>microsoft_lens</item>
         <item>microsoft_lists</item>
         <item>microsoft_one_drive</item>
+        <item>microsoft_outlook</item>
         <item>microsoft_outlook_lite</item>
         <item>microsoft_planner</item>
-        <item>microsoft_powerpoint</item>
         <item>microsoft_power_bi</item>
         <item>microsoft_share_point</item>
         <item>microsoft_sms_organizer</item>
         <item>microsoft_surface</item>
-        <item>microsoft_teams</item>
         <item>microsoft_to_do</item>
         <item>microsoft_whiteboard</item>
         <item>microsoft_word</item>
+        <item>msn</item>
         <item>msn_weather</item>
         <item>power_apps</item>
         <item>power_automate</item>
@@ -1495,23 +1537,23 @@
     <string-array name="miscellaneous">
         <item>bitboi</item>
         <item>doublegum</item>
-        <item>macintosh</item>
         <item>poop</item>
-        <item>android</item>
         <item>lightning_bolt</item>
+        <item>android</item>
+        <item>macintosh</item>
         <item>pixbit</item>
         <item>smiley</item>
     </string-array>
 
 
     <string-array name="music_and_audio">
-        <item>apple_music_alt</item>
         <item>spotify</item>
+        <item>apple_music</item>
         <item>ultimate_guitar</item>
         <item>yousician</item>
         <item>amazon_music</item>
         <item>amuse</item>
-        <item>apple_music</item>
+        <item>apple_music_alt</item>
         <item>bandsintown_concerts</item>
         <item>beat_maker_pro</item>
         <item>beats</item>
@@ -1533,9 +1575,9 @@
 
     <string-array name="news_and_magazines">
         <item>inshorts</item>
-        <item>medium</item>
-        <item>msn</item>
         <item>press_reader</item>
+        <item>msn</item>
+        <item>medium</item>
         <item>apple_news</item>
         <item>bbc</item>
         <item>daily_hunt</item>
@@ -1549,10 +1591,10 @@
 
 
     <string-array name="productivity">
+        <item>notion</item>
         <item>daily_bean</item>
         <item>disciplined</item>
         <item>evernote</item>
-        <item>notion</item>
         <item>ai_video</item>
         <item>ask_ai</item>
         <item>cal_ai</item>
@@ -1615,9 +1657,9 @@
 
     <string-array name="security">
         <item>one_1_password</item>
+        <item>security</item>
         <item>avg</item>
         <item>sd_maid</item>
-        <item>security</item>
         <item>avast</item>
         <item>bitdefender</item>
         <item>bitwarden</item>
@@ -1631,18 +1673,18 @@
 
 
     <string-array name="shopping">
-        <item>ali_express</item>
-        <item>hnm</item>
-        <item>nike</item>
+        <item>ebay</item>
         <item>uniqlo</item>
+        <item>nike</item>
+        <item>ali_express</item>
         <item>adidas</item>
         <item>ajio</item>
         <item>alibaba</item>
         <item>amazon</item>
         <item>beekman_1802</item>
         <item>costco</item>
-        <item>ebay</item>
         <item>etsy</item>
+        <item>hnm</item>
         <item>ikea</item>
         <item>lens_kart</item>
         <item>meesho</item>
@@ -1665,9 +1707,9 @@
 
     <string-array name="social">
         <item>facebook</item>
-        <item>instagram</item>
-        <item>twitter_x</item>
-        <item>tiktok</item>
+        <item>instagram_lite</item>
+        <item>twitch</item>
+        <item>reddit</item>
         <item>artstation</item>
         <item>behance</item>
         <item>blogger</item>
@@ -1677,17 +1719,17 @@
         <item>facebook_lite</item>
         <item>facebook_messenger</item>
         <item>hootsuite</item>
-        <item>instagram_lite</item>
+        <item>instagram</item>
         <item>kickstarter</item>
         <item>line</item>
         <item>pinterest</item>
         <item>quora</item>
-        <item>reddit</item>
         <item>snapchat</item>
         <item>threads</item>
+        <item>tiktok</item>
         <item>tiktok_lite</item>
         <item>tumblr</item>
-        <item>twitch</item>
+        <item>twitter_x</item>
         <item>twitter_alt</item>
         <item>vine</item>
         <item>we_chat</item>
@@ -1778,8 +1820,8 @@
 
 
     <string-array name="travel_maps_and_navigation">
-        <item>air_bnb</item>
         <item>all_trails</item>
+        <item>air_bnb</item>
         <item>google_earth</item>
         <item>uber</item>
         <item>city_mapper</item>
@@ -1794,10 +1836,10 @@
 
 
     <string-array name="video_players_and_editors">
+        <item>vlc</item>
         <item>capcut</item>
         <item>edits</item>
         <item>mx_player</item>
-        <item>vlc</item>
         <item>filmora</item>
         <item>flud</item>
         <item>gopro_quik</item>
@@ -1809,45 +1851,6 @@
         <item>vico_home</item>
         <item>video_downloader</item>
         <item>xa_downloader</item>
-    </string-array>
-
-
-    <string-array name="apple_ios">
-        <item>apple_calculator</item>
-        <item>apple_news</item>
-        <item>apple_tv</item>
-        <item>safari</item>
-        <item>app_store</item>
-        <item>apple_books</item>
-        <item>apple_calendar</item>
-        <item>apple_camera</item>
-        <item>apple_clock</item>
-        <item>apple_contacts</item>
-        <item>apple_family_sharing</item>
-        <item>apple_files</item>
-        <item>apple_find_my</item>
-        <item>apple_fitness</item>
-        <item>apple_health</item>
-        <item>apple_home</item>
-        <item>apple_mail</item>
-        <item>apple_maps</item>
-        <item>apple_measure</item>
-        <item>apple_music</item>
-        <item>apple_notes</item>
-        <item>apple_phone</item>
-        <item>apple_photos</item>
-        <item>apple_podcasts</item>
-        <item>apple_reminders</item>
-        <item>apple_settings</item>
-        <item>apple_tips</item>
-        <item>apple_translate</item>
-        <item>apple_voice_memos</item>
-        <item>apple_wallet</item>
-        <item>apple_watch</item>
-        <item>apple_weather</item>
-        <item>facetime</item>
-        <item>imessage</item>
-        <item>shortcuts</item>
     </string-array>
 
 
